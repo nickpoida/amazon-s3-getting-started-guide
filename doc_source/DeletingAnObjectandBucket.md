@@ -1,25 +1,25 @@
-# Deleting objects and buckets<a name="DeletingAnObjectandBucket"></a>
+# Удаление объектов и бакетов<a name="DeletingAnObjectandBucket"></a>
 
-When you no longer need an object or a bucket, we recommend that you delete them to prevent further charges\. If you completed this getting started walkthrough as a learning exercise and do not plan to use your bucket or objects, we recommend that you delete your bucket so that charges no longer accrue\. Before you delete your bucket, you must empty the bucket or delete the objects in the bucket\. After you delete your objects and bucket, they are no longer available\.
+Когда необходимость в объектах и бакетах пропадает, мы рекомендуем вам их удалить, чтобы избежать последующих расходов\. Если вы выполнили это пошаговое руководство по началу работы в качестве учебного упражнения и не планируете использовать свои объекты или бакеты, мы рекомендуем вам удалить бакет, чтобы не было дополнительных расходов\. Прежде чем вы удалите свой бакет, вы должны опустошить бакет или удалить объекты в бакете\. После того, как вы удалите ваши объекты и бакеты, они станут недоступны\.
 
-If you want to continue to use the same bucket name, we recommend that you delete the objects or empty the bucket but do not delete the bucket\. After you delete a bucket, the name becomes available to reuse\. However, another account might create a bucket with the same name before you have a chance to reuse it\. 
+Если вы планируете продолжать использовать то же имя бакета, мы рекомендуем вам удалить все объекты или очистить бакет, но не удалять бакет\. После удаления бакета, его имя становится доступно к повторному использованию\. В любом случае, другой клиент может создать бакет с таким же именем, до того, как вы заново его используете\. 
 
-**Topics**
-+ [Emptying your bucket](#clean-up-empty-bucket)
-+ [Deleting an object](#clean-up-delete-objects)
-+ [Deleting your bucket](#clean-up-delete-bucket)
+**Темы**
++ [Опустошение вашего бакета](#clean-up-empty-bucket)
++ [Удаление объекта](#clean-up-delete-objects)
++ [Удаление бакета](#clean-up-delete-bucket)
 
-## Emptying your bucket<a name="clean-up-empty-bucket"></a>
+## Опустошение бакета<a name="clean-up-empty-bucket"></a>
 
-If you plan to delete your bucket, you must first empty your bucket, which deletes all the objects in the bucket\. 
+Если вы планируете удалить свой бакет, вы сначала должны его опустошить, что удалит все объекты в бакете\. 
 
-**To empty a bucket**
+**Для опустошения бакета**
 
-1. In the **Buckets** list, select the bucket that you want to empty, and then choose **Empty**\.
+1. В списке **Buckets** выберите бакет, который вы хотите опустошить и нажмите **Empty**\.
 
-1. To confirm that you want to empty the bucket and delete all the objects in it, in **Empty bucket**, enter the name of the bucket\.
-**Important**  
-Emptying the bucket cannot be undone\. Objects added to the bucket while the empty bucket action is in progress will be deleted\.
+1. Для подтверждения того, что вы хотите опустошить бакет и удалить все объекты в нем, в окне **Empty bucket** введите имя бакета\.
+**Важно**  
+Опустошение бакета не может быть отменено\. Объекты, добавленные в бакет во время выполнения опустошения бакета, будут удалены\.
 
 1. To empty the bucket and delete all the objects in it, and choose **Empty**\.
 
