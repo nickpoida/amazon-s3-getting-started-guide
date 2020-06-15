@@ -1,5 +1,5 @@
-# About this guide<a name="AboutThisGuide"></a>
+# Об этом руководстве<a name="AboutThisGuide"></a>
 
-This is the *Amazon Simple Storage Service Getting Started Guide*\.
+Это *Руководство По Началу Работы С Amazon Simple Storage Service*\.
 
-Amazon Simple Storage Service is frequently referred to within this guide as "Amazon S3\." All copyrights and legal protections still apply\.
+Amazon Simple Storage Service в этом руководстве часто упоминается как "Amazon S3\." Авторские права и юридическая защита в любом случае применяются\.
