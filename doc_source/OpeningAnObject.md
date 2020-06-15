@@ -1,21 +1,21 @@
-# Viewing an object<a name="OpeningAnObject"></a>
+# Просмотр объекта<a name="OpeningAnObject"></a>
 
-Now that you've uploaded an object to a bucket, you can view information about your object and download the object to your local computer\.
+Теперь, когда вы загрузили объект в корзину, вы можете просмотреть информацию о своем объекте и загрузить объект на локальный компьютер\.
 
-**To download an object from a bucket**
+**Для того, чтобы скачать объект из бакета**
 
-1. In the **Buckets** list, choose the name of the bucket that you created\.
+1. В списке **Buckets** выберите имя бакета, который вы создали\.
 
-1. In the **Name** list, choose the name of the object that you uploaded\.
+1. В списке **Name** выберите имя объекта, который вы загрузили\.
 
-   For your selected object, the object overview panel opens\.
+   Для выбранного объекта открывается панель обзора объекта.\.
 
-1. On the **Overview** tab, review information about your object\.
+1. Во вкладке **Overview** просмотрите информацию о вашем объекте\.
 
-1. To view the object in your browser, choose **Open**\.
+1. Для просмотра вашего объекта в браузере выберите **Open**\.
 
-1. To download the object to your computer, choose **Download**\.
+1. Для того, чтобы скачать объект - выберите **Download**\.
 
-You've successfully downloaded your object\.
+Вы успешно скачали ваш объект\.
 
-To copy and paste your object within Amazon S3, see [Copying an object](CopyingAnObject.md)\.
+Чтобы скопировать и вставить ваш объект в Amazon S3, смотрите [Копирование объекта](CopyingAnObject.md)\.
