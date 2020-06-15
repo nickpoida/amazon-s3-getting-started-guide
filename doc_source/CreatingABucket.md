@@ -1,40 +1,40 @@
-# Creating a bucket<a name="CreatingABucket"></a>
+# Создание бакета<a name="CreatingABucket"></a>
 
-Now that you've signed up for AWS you're ready to create a bucket using the AWS Management Console\. Every object in Amazon S3 is stored in a bucket\. Before you can store data in Amazon S3, you must create a bucket\. 
+Теперь, когда вы зарегистрировались в AWS, вы готовы создать бакет используя AWS Management Console\. Каждый объект в Amazon S3 хранится в бакетах\. Прежде, чем вы сможете хранить данные в Amazon S3, вы должны создать бакет\. 
 
-**Note**  
-You are not charged for creating a bucket\. You are charged only for storing objects in the bucket and for transferring objects in and out of the bucket\. The charges that you incur through following the examples in this guide are minimal \(less than $1\)\. For more information about storage charges, see [Amazon S3 pricing](http://aws.amazon.com/s3/pricing/)\.
+**Имейте ввиду**  
+Вы не платите за создание бакетов\. Вы платите только за хранение объектов в бакете и за передачу объектов в/из бакета\. Расходы, которые вы понесете следуя примерам в этом руководстве - минимальны \(меньше $1\)\. Для более подробной информации об оплате за хранение, смотрите [Расценки Amazon S3](http://aws.amazon.com/s3/pricing/)\.
 
-**To create a bucket**
+**Для того, чтобы создать бакет**
 
-1. Sign in to the AWS Management Console and open the Amazon S3 console at [https://console\.aws\.amazon\.com/s3/](https://console.aws.amazon.com/s3/)\.
+1. Войдите в AWS Management Console и перейдите в консоль Amazon S3 по ссылке [https://console\.aws\.amazon\.com/s3/](https://console.aws.amazon.com/s3/)\.
 
-1. Choose **Create bucket**\.
+1. Выберите **Create bucket**\.
 
-   The **Create bucket** page opens\.
+   Откроется окно **Создание бакета**\.
 
-1. In **Bucket name**, enter a DNS\-compliant name for your bucket\.
+1. В **Bucket name** введите  DNS\-соответствующее имя для вашего бакета\.
 
-   The bucket name must:
-   + Be unique across all of Amazon S3\.
-   + Be between 3 and 63 characters long\.
-   + Not contain uppercase characters\.
-   + Start with a lowercase letter or number\.
+   Имя бакета должно:
+   + Быть уникальным в пределах всего Amazon S3\.
+   + Длина имени должна быть между 3 и 63 символами\.
+   + Не содержать заглавных букв\.
+   + Начинаться с маленькой буквы или цифры\.
 
-   After you create the bucket, you can't change its name\. For information about naming buckets, see [Rules for Bucket Naming](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html#bucketnamingrules) in the *Amazon Simple Storage Service Developer Guide*\.
-**Important**  
-Avoid including sensitive information, such as account numbers, in the bucket name\. The bucket name is visible in the URLs that point to the objects in the bucket\.
+   После того, как вы создадите бакет, вы не сможете сменить его имя\. Для более подробной информации об именовании бакетов смотрите [Правила Именования Бакетов](https://docs.aws.amazon.com/AmazonS3/latest/dev/BucketRestrictions.html#bucketnamingrules) в *Руководстве Разработчика Amazon Simple Storage Service*\.
+**Важно**  
+Избегайте включения конфиденциальной информации, такой как номера счетов, в название бакета\. Имя бакета видно в URL, которые указывают на объекты в бакете\.
 
-1. In **Region**, choose the AWS Region where you want the bucket to reside\. 
+1. В меню **Region** выберите регион AWS, где вы хотите разместить бакет\. 
 
-   Choose a Region close to you to minimize latency and costs and address regulatory requirements\. Objects stored in a Region never leave that Region unless you explicitly transfer them to another Region\. For a list of Amazon S3 AWS Regions, see [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) in the *Amazon Web Services General Reference*\.
+   Выберите ближайший к вам регион, чтобы минимизировать задержки и затраты, а также учесть нормативные требования\. Объекты, хранящиеся в Регионе, никогда не покидают этот Регион, если вы явно не перенесли их в другой Регион\. Для получения списка регионов Amazon S3 смотрите  [AWS Service Endpoints](https://docs.aws.amazon.com/general/latest/gr/rande.html#s3_region) в *Общем справочнике по Amazon Web Services *\.
 
-1. In **Bucket settings for Block Public Access**, keep the values set to the defaults\. 
+1. В меню **Bucket settings for Block Public Access** оставьте значения по умолчанию\. 
 
-   By default Amazon S3 blocks all public access to your buckets\. We recommend that you leave all Block Public Access settings enabled\. For more information about blocking public access, see [Using Amazon S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html) in the *Amazon Simple Storage Service Developer Guide*\.
+   По умолчанию Amazon S3 блокирует весь публичный доступ к вашим бакетам\. Мы рекомендуем оставить все настройки блокировки публичного доступа включенными\. Для получения дополнительной информации, смотрите раздел [Использование блокировки публичного доступа в Amazon S3 ](https://docs.aws.amazon.com/AmazonS3/latest/dev/access-control-block-public-access.html) в *Руководстве Разработчика Amazon Simple Storage Service*\.
 
-1. Choose **Create bucket**\.
+1. Выберите **Create bucket**\.
 
-You've created a bucket in Amazon S3\. 
+Вы создали бакет в Amazon S3\. 
 
-To add an object to your bucket, see [Uploading an object to a bucket](PuttingAnObjectInABucket.md)\.
+Чтобы добавить объект в ваш бакет, смотрите [Загрузка объекта в бакет](PuttingAnObjectInABucket.md)\.
