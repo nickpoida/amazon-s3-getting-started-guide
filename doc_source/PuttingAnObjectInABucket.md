@@ -1,19 +1,19 @@
-# Uploading an object to a bucket<a name="PuttingAnObjectInABucket"></a>
+# Загрузка объекта в бакет<a name="PuttingAnObjectInABucket"></a>
 
-Now that you've created a bucket, you're ready to upload an object to it\. An object can be any kind of file: a text file, a photo, a video, and so on\. 
+Теперь, когда вы создали бакет, вы готовы загрузить объект в него\. Объект может быть любым типом файла: текстовый файл, фото, видеои так далее\. 
 
-**To upload an object to a bucket**
+**Для того, чтобы загрузить объект в бакет:**
 
-1. In the **Bucket** list, choose the name of the bucket that you want to upload your object to\.
+1. В списке **Бакетов** выберите имя бакета, в который вы хотите загрузить объект\.
 
-1. On the **Overview** tab for your bucket, choose **Upload** or **Get Started**\.
+1. Во вкладке **Overview** вашего бакета, выберите **Upload** или **Get Started**\.
 
-1. To choose the file to upload, in the **Upload** dialog box, choose **Add files**\.
+1. Чтобы выбрать файл для загрузки, в диалоговом окне **Upload** выберите **Add files**\.
 
-1. Choose a file to upload, and then choose **Open\.** 
+1. Выберите файл для загрузки и нажмите **Open\.** 
 
-1. Choose **Upload**\. 
+1. Нажмите **Upload**\. 
 
-You've successfully uploaded an object to your bucket\. 
+Вы успешно загрузили объект в ваш бакет\. 
 
-To view your object, see [Viewing an object](OpeningAnObject.md)\.
+Для просмотра вашего объекта, смотрите [Просмотр объекта](OpeningAnObject.md)\.
