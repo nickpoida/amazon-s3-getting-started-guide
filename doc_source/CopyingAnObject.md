@@ -1,35 +1,35 @@
-# Copying an object<a name="CopyingAnObject"></a>
+# Копирование объекта<a name="CopyingAnObject"></a>
 
-You've already added an object to a bucket and downloaded the object\. Now, you can copy the object\. You can copy an object to a location within a bucket or to a location in another bucket\. In this tutorial, you create a folder and copy your object to it\.
+Вы уже добавили объект в бакет, а также скачали объект с бакета\. Теперь вы можете скопировать объект\. Вы можете скопировать объект в другое местоположение в пределах бакета или в другой бакет\. В этом уроке вы создадите папку и скопируете свой объект в нее\.
 
-**To copy an object to a folder**
+**Для того, чтобы скопировать объект в папку**
 
-1. In the **Buckets** list, choose your bucket name\.
+1. В списке **Бакетов** выберите имя вашего бакета\.
 
-1. Choose **Create folder**\.
+1. Выберите **Create folder**\.
 
-1. Configure your folder: 
+1. Настройте вашу папку: 
 
-   1. Enter a folder name \(for example, `favorite-pics`\.
+   1. Введите имя папки \(например, `favorite-pics`\.
 
-   1. For the folder encryption setting, choose **None**\.
+   1. В настройках шифрования папки, выберите **None**\.
 
-   1. Choose **Save**\.
+   1. Нажмите **Save**\.
 
-1. Select the check box beside the object that you want to copy\.
+1. Установите флажок рядом с объектом, который вы хотите скопировать\.
 
-1. Choose **Actions**, and choose **Copy**\.
+1. Выберите **Actions**, а затем выберите **Copy**\.
 
-1. Choose the destination bucket name\.
+1. Выберите бакет назначения\.
 
-1. Choose your folder, and choose **Choose**\.
+1. Выберите вашу папку и нажмите **Choose**\.
 
-1. Under **Review**, confirm the copy details, and choose **Copy**\.
+1. В разделе **Review** подтвердите настройки копирования и выберите **Copy**\.
 
-   Amazon S3 copies your object to the destination folder\.
+   Amazon S3 скопирует ваш объект в папку назначения\.
 
-1. To view your copied object in the destination folder, on the **Overview** tab, choose the folder name\.
+1. Чтобы просмотреть скопированный объект в папке назначения, на вкладке **Overview** выберите имя папки\.
 
-   In the folder, you see the copied object\.
+   В папке вы увидите ваш объект\.
 
-To delete an object and a bucket in Amazon S3, see [Deleting objects and buckets](DeletingAnObjectandBucket.md)\.
+Чтобы удалить объект или бакет, смотрите раздел [Удаление объектов и бакетов](DeletingAnObjectandBucket.md)\.
