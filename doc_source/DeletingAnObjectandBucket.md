@@ -21,36 +21,36 @@
 **Важно**  
 Опустошение бакета не может быть отменено\. Объекты, добавленные в бакет во время выполнения опустошения бакета, будут удалены\.
 
-1. To empty the bucket and delete all the objects in it, and choose **Empty**\.
+1.Чтобы опустошить бакет и удалить все объекты в нем, выберите **Empty**\.
 
-   An **Empty bucket: Status** page opens that you can use to review a summary of failed and successful object deletions\.
+   Откроется окно **Empty bucket: Status**, в котором представлена сводка удачных и неудачных удалений объектов\.
 
-1. To return to your bucket list, choose **Exit**\.
+1. Для того, чтобы вернуться в список бакетов, выберите **Exit**\.
 
-## Deleting an object<a name="clean-up-delete-objects"></a>
+## Удаление объекта<a name="clean-up-delete-objects"></a>
 
-If you want to choose which objects you delete without emptying all the objects from your bucket, you can delete an object\. 
+Если вы хотите выбрать, какие объекты вы удаляете, не опустошая весь бакет, вы можете удалить конкретный объект\. 
 
-1. In the **Buckets** list, choose the name of the bucket that you want to delete an object from\.
+1. В списке **Buckets** выберите бакет из которого вы хотите удалить объект\.
 
-1. In the **Name** list, select the check box for the object that you want to delete\.
+1. В списке **Name** поставьте галку у объекта, который вы хотите удалить\.
 
-1. Choose **Actions**, and then choose **Delete**\.
+1. Нажмите **Actions**, а затем **Delete**\.
 
-1. In the **Delete objects** dialog box, verify that the name of the object, and choose **Delete**\.
+1. В диалоговом окне **Delete objects** убедитесь, что имя объекта соответствует тому, который вы хотите удалить и нажмите **Delete**\.
 
-## Deleting your bucket<a name="clean-up-delete-bucket"></a>
+## Удаление вашего бакета<a name="clean-up-delete-bucket"></a>
 
-After you empty your bucket or delete all the objects from your bucket, you can delete your bucket\.
+После того как вы опустошили ваш бакет или вручную удалили все объекты из вашего бакета, вы можете удалить ваш бакет\.
 
-1. To delete a bucket, in the **Buckets** list, select the bucket\.
+1. Чтобы удалить бакет, выберите необходимый бакет в списке **Buckets**\.
 
-1. Choose **Delete**\.
+1. Нажмите **Delete**\.
 
-1. To confirm deletion, in **Delete bucket**, enter the name of the bucket\.
-**Important**  
-Deleting a bucket cannot be undone\. Bucket names are unique\. If you delete your bucket, another AWS user can use the name\. If you want to continue to use the same bucket name, don't delete your bucket\. Instead, empty and keep the bucket\. 
+1. Для подтверждения удаления введите имя бакета в окне **Delete bucket**\.
+**Важно**  
+Удаление бакета не может быть отменено\. Имена бакетов уникальны\. Если вы удалите ваш бакет, другой пользователь может использовать это имя для своего бакета\. Если вы хотите и дальше использовать то же самое имя бакета - не удаляйте ваш бакет\. Вместо этого, опустошите и оставьте бакет\. 
 
-1. To delete your bucket, choose **Delete bucket**\.
+1. Чтобы все-таки удалить бакет, нажмите **Delete bucket**\.
 
-For more information about using Amazon S3, see [Where do I go from here?](ImplementingS3.md)
+Для получения дополнительной информации об использовании Amazon S3 смотрите [Куда я могу пойти отсюда?](ImplementingS3.md)
