@@ -1,38 +1,38 @@
-# Setting up Amazon S3<a name="SigningUpforS3"></a>
+# Настройка Amazon S3<a name="SigningUpforS3"></a>
 
-When you sign up for AWS, your AWS account is automatically signed up for all services in AWS, including Amazon S3\. You are charged only for the services that you use\.
+Когда вы регистрируетесь в AWS, ваша учетная запись AWS автоматически подписывается на все сервисы AWS, включая Amazon S3\. Но счета выставляются только за те ресурсы, которые вы используете\.
 
-With Amazon S3, you pay only for what you use\. For more information about Amazon S3 features and pricing, see [Amazon S3](http://aws.amazon.com/s3)\. If you are a new Amazon S3 customer, you can get started with Amazon S3 for free\. For more information, see [AWS Free Tier](http://aws.amazon.com/free)\.
+С Amazon S3 вы платите только за то, что использовали\. Для получения более подробной информации о функциях и расценках на Amazon S3, смотрите [страницу Amazon S3](http://aws.amazon.com/s3)\. Если вы новый пользователь Amazon S3, вы можете начать пользоваться Amazon S3 совершенно бесплатно\. Для получения дополнительной информации, смотрите [Бесплатный уровень AWS](http://aws.amazon.com/free)\.
 
-To get started with Amazon S3, follow these steps:
+Следуйте этим шагам, чтобы начать работу с Amazon S3:
 
-**Topics**
-+ [Sign up for AWS](#sign-up-for-aws-gsg)
-+ [Create an IAM user](#create-an-iam-user-gsg)
-+ [Sign in as an IAM user](#signing-in-iam-user-gsg)
+**Темы**
++ [Зарегистрируйтесь в AWS](#sign-up-for-aws-gsg)
++ [Создайте пользователя IAM](#create-an-iam-user-gsg)
++ [Зайдите под именем пользователя IAM](#signing-in-iam-user-gsg)
 
-## Sign up for AWS<a name="sign-up-for-aws-gsg"></a>
+## Зарегистрируйтесь в AWS<a name="sign-up-for-aws-gsg"></a>
 
-If you do not have an AWS account, complete the following steps to create one\.
+Если у вас нет учетной записи AWS, создайте ее, путем выполнения следующих шагов\.
 
-**To sign up for an AWS account**
+**Для регистрации учетной записи AWS**
 
-1. Open [https://portal\.aws\.amazon\.com/billing/signup](https://portal.aws.amazon.com/billing/signup)\.
+1. Откройте страницу [https://portal\.aws\.amazon\.com/billing/signup](https://portal.aws.amazon.com/billing/signup)\.
 
-1. Follow the online instructions\.
+1. Следуйте инструкциям\.
 
-   Part of the sign\-up procedure involves receiving a phone call and entering a verification code on the phone keypad\.
+   Часть процедуры регистрации включает в себя получение телефонного звонка и ввод кода подтверждения на клавиатуре телефона\.
 
-AWS sends you a confirmation email after the sign\-up process is complete\. At any time, you can view your current account activity and manage your account by going to [https://aws\.amazon\.com/](https://aws.amazon.com/) and choosing **My Account**\.
+AWS пришлет вам электронное письмо с подтверждением по окончании процесса регистрации\. В любой момент вы можете посмотреть состояние вашей учетной записи или управлять вашей учетной записью путем перехода по ссылке [https://aws\.amazon\.com/](https://aws.amazon.com/) и нажатия **My Account**\.
 
-## Create an IAM user<a name="create-an-iam-user-gsg"></a>
+## Создайте пользователя IAM<a name="create-an-iam-user-gsg"></a>
 
-When you first create an Amazon Web Services \(AWS\) account, you begin with a single sign\-in identity\. That identity has complete access to all AWS services and resources in the account\. This identity is called the AWS account *root user*\. When you sign in, enter the email address and password that you used to create the account\.
+Когда вы впервые создаете учетную запись Amazon Web Services \(AWS\), вы начинаете работу с единой учетной записью\. Эта учетная запись имеет полный доступ ко всем ресурсам и сервисам AWS в пределах вашего аккаунта\. Эта учетная запись AWS называется *root user*\. Когда вы заходите - введите адрес электронной почты и пароль, которые вы использовали при создании учетной записи\.
 
-**Important**  
-We strongly recommend that you do not use the root user for your everyday tasks, even the administrative ones\. Instead, adhere to the [best practice of using the root user only to create your first IAM user](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users)\. Then securely lock away the root user credentials and use them to perform only a few account and service management tasks\. To view the tasks that require you to sign in as the root user, see [AWS Tasks That Require Root User](https://docs.aws.amazon.com/general/latest/gr/aws_tasks-that-require-root.html)\.
+**Важно**  
+Мы настоятельно рекомендуем вам не использовать пользователя root для выполнения повседневных задач, даже административных.\. Вместо этого, придерживайтесь [лучшей практики по использованию корневого(root) пользователя единожды, только для создания вашего первого пользователя IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#create-iam-users)\. Затем надежно спрячьте учетные данные пользователя root и используйте их для выполнения редких задач управления учетными записями и службами\. Чтобы ознакомиться со списком задач, которые могут потребовать использование корневого пользователя, смотрите список [Задач AWS, которые требуют использования корневого пользователя](https://docs.aws.amazon.com/general/latest/gr/aws_tasks-that-require-root.html)\.
 
-If you signed up for AWS but have not created an IAM user for yourself, follow these steps\.
+Если вы уже зарегистрировались в AWS, но еще не создали для себя пользователя IAM, следуйте этим шагам\.
 
 **To create an administrator user for yourself and add the user to an administrators group \(console\)**
 
