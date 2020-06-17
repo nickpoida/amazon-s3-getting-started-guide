@@ -1,17 +1,17 @@
-# Getting started with Amazon Simple Storage Service<a name="GetStartedWithS3"></a>
+# Начало работы с Amazon Simple Storage Service<a name="GetStartedWithS3"></a>
 
-Amazon Simple Storage Service \(Amazon S3\) is storage for the internet\. You can use Amazon S3 to store and retrieve any amount of data at any time, from anywhere on the web\. You can accomplish these tasks using the AWS Management Console, which is a simple and intuitive web interface\. 
+Amazon Simple Storage Service \(Amazon S3\) это интернет-хранилище\. Вы можете использовать Amazon S3 для хранения и извлечения любого объема данных в любое время из любой точки сети\. Вы можете выполнить эти задачи с помощью Консоли управления AWS, которая является простым и интуитивно понятным веб-интерфейсом.\. 
 
-Amazon S3 stores data as objects within buckets\. An object is a file and any optional metadata that describes the file\. To store a file in Amazon S3, you upload it to a bucket\. When you upload a file as an object, you can set permissions on the object and any metadata\. 
+Amazon S3 хранит данные как объекты в бакетах\. Объект - это файл и любые опциональные метаданные, описывающие данный файл\. Для того, чтобы передать файл на хранение в Amazon S3, вы должны загрузить его в бакет\. Когда вы загружаете файл, как объект - вы можете установить разрешения на объект и любые метаданные\. 
 
-Buckets are containers for objects\. You can have one or more buckets\. You can control access for each bucket, deciding who can create, delete, and list objects in it\. You can also choose the geographical Region where Amazon S3 will store the bucket and its contents and view access logs for the bucket and its objects\.
+Бакеты - это контейнеры для объектов\. У вас может быть один или более бакетов\. Вы можете контролировать доступ к каждому бакету, решая, кто может создавать, удалять или просматривать объекты в них\. Вы также можете выбрать географический Регион, где Amazon S3 будет хранить ваш бакет и его содержимое, а также просматривать журналы доступа к бакетам и их объектам\.
 
-This guide introduces you to Amazon S3 and explains how to use the AWS Management Console to complete the following tasks:
-+ [Setting up Amazon S3](SigningUpforS3.md)
-+ [Creating a bucket](CreatingABucket.md)
-+ [Uploading an object to a bucket](PuttingAnObjectInABucket.md)
-+ [Viewing an object](OpeningAnObject.md)
-+ [Copying an object](CopyingAnObject.md)
-+ [Deleting objects and buckets](DeletingAnObjectandBucket.md)
+Это руководство ознакомит вас с Amazon S3 и объяснит, как использовать Консоль управления AWS для выполнения следующих задач:
++ [Настройка Amazon S3](SigningUpforS3.md)
++ [Создание бакета](CreatingABucket.md)
++ [Загрузка объекта в бакет](PuttingAnObjectInABucket.md)
++ [Просмотр объекта](OpeningAnObject.md)
++ [Копирование объекта](CopyingAnObject.md)
++ [Удаление объектов и бакетов](DeletingAnObjectandBucket.md)
 
-For information about Amazon S3 features, pricing, and frequently asked questions, see the [Amazon S3 product page](https://aws.amazon.com/s3/)\.
+Для получения дополнительной информации о функция, расценках, а также часто задаваемых вопросах об Amazon S3, ознакомьтесь со [страницей продукта Amazon S3](https://aws.amazon.com/s3/)\.
