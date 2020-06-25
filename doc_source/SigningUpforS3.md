@@ -34,64 +34,64 @@ AWS пришлет вам электронное письмо с подтвер�
 
 Если вы уже зарегистрировались в AWS, но еще не создали для себя пользователя IAM, следуйте этим шагам\.
 
-**To create an administrator user for yourself and add the user to an administrators group \(console\)**
+**Для того, чтобы создать пользователя-администратора для себя и добавить его в группу администраторов \(в консоли\)**
 
-1. Use your AWS account email address and password to sign in as the *[AWS account root user](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)* to the IAM console at [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
-**Note**  
-We strongly recommend that you adhere to the best practice of using the **Administrator** IAM user below and securely lock away the root user credentials\. Sign in as the root user only to perform a few [account and service management tasks](https://docs.aws.amazon.com/general/latest/gr/aws_tasks-that-require-root.html)\.
+1. Используйте ваш почтовый адрес и пароль, указанные при регистрации вашего аккаунта AWS, чтобы зайти как *[корневой пользователь аккаунта AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html)* в консоль IAM по адресу [https://console\.aws\.amazon\.com/iam/](https://console.aws.amazon.com/iam/)\.
+**Обратите внимание**  
+Мы крайне рекомендуем вам строго придерживаться наилучшей практики по использованию пользователя IAM **Administrator** в дальнейшем и безопасного хранения учетных данных корневого пользователя\. Входите под учетной записью только для нескольких [задач по управлению аккаунтом и сервисами](https://docs.aws.amazon.com/general/latest/gr/aws_tasks-that-require-root.html)\.
 
-1. In the navigation pane, choose **Users** and then choose **Add user**\.
+1. Вы навигационной панели выберите **Users** и нажмите **Add user**\.
 
-1. For **User name**, enter **Administrator**\.
+1. В поле **User name** введите **Administrator**\.
 
-1. Select the check box next to **AWS Management Console access**\. Then select **Custom password**, and then enter your new password in the text box\.
+1. Установите галку в поле **AWS Management Console access**\. Затем выберите **Custom password** и введите пароль, который вы хотите использовать в текстовом поле\.
 
-1. \(Optional\) By default, AWS requires the new user to create a new password when first signing in\. You can clear the check box next to **User must create a new password at next sign\-in** to allow the new user to reset their password after they sign in\.
+1. \(По желанию\) По умолчанию AWS требует от новых пользователей создания нового пароля при первом входе\. Вы можете снять галочку в поле **User must create a new password at next sign\-in**, чтобы позволить пользователю сбростиь пароль уже после входа\.
 
-1. Choose **Next: Permissions**\.
+1. Нажмите **Next: Permissions**\.
 
-1. Under **Set permissions**, choose **Add user to group**\.
+1. Во вкладке **Set permissions**, нажмите **Add user to group**\.
 
-1. Choose **Create group**\.
+1. Нажмите **Create group**\.
 
-1. In the **Create group** dialog box, for **Group name** enter **Administrators**\.
+1. В диалоговом окне **Create group**, в поле **Group name** введите **Administrators**\.
 
-1. Choose **Filter policies**, and then select **AWS managed \-job function** to filter the table contents\.
+1. Нажмите **Filter policies** и выберите **AWS managed \-job function**, чтобы отфильтровать содержимое таблицы\.
 
-1. In the policy list, select the check box for **AdministratorAccess**\. Then choose **Create group**\.
-**Note**  
-You must activate IAM user and role access to Billing before you can use the `AdministratorAccess` permissions to access the AWS Billing and Cost Management console\. To do this, follow the instructions in [step 1 of the tutorial about delegating access to the billing console](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)\.
+1. В списке политик установите галочку на **AdministratorAccess**\. Затем нажмите **Create group**\.
+**Имейте ввиду**  
+Вы должны активировать доступ пользователя и роли IAM к консоли Billing, прежде чем вы сможете использовать разрешения «AdministratorAccess» для доступа к консоли AWS Billing and Cost Management\. Чтобы это сделать, следуйте инструкции в пункте 1 [учебного пособия по делегированию доступа к консоли Billing](https://docs.aws.amazon.com/IAM/latest/UserGuide/tutorial_billing.html)\.
 
-1. Back in the list of groups, select the check box for your new group\. Choose **Refresh** if necessary to see the group in the list\.
+1. Вернувшись к списку групп, установите галочку на вашей новой группе\. В случае необходимости, нажмите **Refresh**, чтобы увидеть вашу группу в списке\.
 
-1. Choose **Next: Tags**\.
+1. Нажмите **Next: Tags**\.
 
-1. \(Optional\) Add metadata to the user by attaching tags as key\-value pairs\. For more information about using tags in IAM, see [Tagging IAM Entities](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html) in the *IAM User Guide*\.
+1. \(По желанию\) Можно добавить пользователю метаданные в виде тегов типа пара "ключ-значение"\. Для получения дополнительной информации об использовании тегов в IAM, ознакомьтесь с разделом [Тегирование объектов IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_tags.html) в *Руководстве пользователя IAM *\.
 
-1. Choose **Next: Review** to see the list of group memberships to be added to the new user\. When you are ready to proceed, choose **Create user**\.
+1. Нажмите **Next: Review** чтобы увидеть членство в группах нового пользователя\. Когда будете готовы, нажмите **Create user**\.
 
-You can use this same process to create more groups and users and to give your users access to your AWS account resources\. To learn about using policies that restrict user permissions to specific AWS resources, see [Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/access.html) and [Example Policies](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)\.
+Вы можете использовать этот же процесс, чтобы создать другие группы и пользователей и предоставить своим пользователям доступ к ресурсам вашего аккаунта AWS\. Чтобы больше узнать об использовании политик, которые ограничивают разрешения пользователей для определенных ресурсов AWS, ознакомьтесь с [Управлением доступом](https://docs.aws.amazon.com/IAM/latest/UserGuide/access.html) и [Примерами политик](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)\.
 
-## Sign in as an IAM user<a name="signing-in-iam-user-gsg"></a>
+## Зайдите под именем пользователя IAM<a name="signing-in-iam-user-gsg"></a>
 
-After you create an IAM user, you can sign in to AWS with your IAM user name and password\.
+После того, как вы создали пользователя в IAM, вы можете войти в AWS используя имя пользователя IAM и соотвествующий пароль\.
 
-Before you sign in as an IAM user, you can verify the sign\-in link for IAM users in the IAM console\. On the IAM Dashboard, under **IAM users sign\-in link**, you can see the sign\-in link for your AWS account\. The URL for your sign\-in link contains your AWS account ID without dashes \(‐\)\. 
+Перед тем, как зайти под именем пользователя IAM, вы можете получить ссылку для входа под именем пользователя IAM в консоли IAM\. В панели IAM под надписью **IAM users sign\-in link** находится ссылка для входа в ваш аккаунт AWS\. Ссылка для входа содержит ID вашего аккаунта AWS без дефисов \(‐\)\. 
 
-If you don't want the URL for your sign\-in link to contain your AWS account ID, you can create an account alias\. For more information, see [Creating, Deleting, and Listing and AWS Account Alias](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html#CreateAccountAlias) in the *IAM User Guide*\.
+Если же вы не хотите использовать ссылку для входа, содержащую ID вашего аккаунта AWS, вы можете создать псевдоним аккаунта\. Для получения дополнительной информации, ознакомьтесь с разделом [Создание, удаление и просмотр псевдонима аккаунта AWS](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html#CreateAccountAlias) в *Руководстве пользователя IAM*\.
 
-**To sign in as an AWS user**
+**Чтобы зайти под именем пользователя AWS **
 
-1. Sign out of the AWS Management Console\.
+1. Выйдите из консоли управления AWS\.
 
-1. Enter your sign\-in link\.
+1. Введите вашу ссылку для входа\.
 
-   Your sign\-in link includes your AWS account ID \(without dashes\) or your AWS account alias:
+   Ваша ссылка для входа включает ID вашего аккаунта AWS \(без дефисов\) или псевдоним вашего аккаунта AWS:
 
    ```
    https://aws_account_id_or_alias.signin.aws.amazon.com/console
    ```
 
-1. Enter the IAM user name and password that you just created\. 
+1. Введите имя пользователя IAM и пароль, которые вы только что создали\. 
 
-   When you're signed in, the navigation bar displays "*your\_user\_name* @ *your\_aws\_account\_id*"\. 
+   Когда вы зайдете, в навигационной панели будет выведено "*your\_user\_name* @ *your\_aws\_account\_id*"\. 
