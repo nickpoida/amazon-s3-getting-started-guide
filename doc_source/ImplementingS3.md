@@ -1,15 +1,15 @@
-# Where do I go from here?<a name="ImplementingS3"></a>
+# Куда направиться дальше?<a name="ImplementingS3"></a>
 
-In the preceding examples, you learned how to perform some basic Amazon S3 tasks\. For more in\-depth information, see one of the following Amazon S3 guides:
-+ The [Amazon Simple Storage Service Console User Guide](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/) to learn more about using the Amazon S3 console\.
-+ The [Amazon Simple Storage Service Developer Guide](https://docs.aws.amazon.com/AmazonS3/latest/dev/) to find detailed information about Amazon S3 features and code examples to support those features\.
-+ The [Amazon Simple Storage Service API Reference](https://docs.aws.amazon.com/AmazonS3/latest/API/) to find details about the Amazon S3 REST API\.
+В предыдущих примерах вы узнали, как выполнять некоторые основные задачи в Amazon S3.\. Для получения более подробной информации ознакомьтесь с одним из следующих руководств Amazon S3:
++ [Руководство пользователя консоли Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/), чтобы узнать больше об использовании консоли Amazon S3\.
++ [Руководство разработчика Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/), чтобы получить детальную информацию о функциях Amazon S3 и примеры кода, использующие эти функции\.
++ [Справочник по API Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/API/) для получения дополнительной информации об Amazon S3 REST API\.
 
-The following topics explain various ways in which you can gain a deeper understanding of Amazon S3 so that you can implement it in your applications\.
+Следующие темы разъясняют различные способы получения глубокого понимания Amazon S3 для того, чтобы вы смогли использовать его функции в своих приложениях\.
 
-**Topics**
-+ [Common use scenarios](S3-gsg-CommonUseScenarios.md)
-+ [Considerations going forward](s3-gsg-ConsiderationsGoingForward.md)
-+ [Advanced Amazon S3 features](S3-gsg-AdvancedAmazonS3Features.md)
-+ [Development resources](S3-gsg-DevelopmentResources.md)
-+ [Reference resources](S3-gsg-ReferenceResources.md)
+**Темы**
++ [Обычные варианты использования](S3-gsg-CommonUseScenarios.md)
++ [Дальшейшие размышления](s3-gsg-ConsiderationsGoingForward.md)
++ [Продвинутые функции Amazon S3](S3-gsg-AdvancedAmazonS3Features.md)
++ [Ресурсы для разработчика](S3-gsg-DevelopmentResources.md)
++ [Справочные ресурсы](S3-gsg-ReferenceResources.md)
