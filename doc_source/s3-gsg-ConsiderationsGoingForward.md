@@ -1,33 +1,33 @@
-# Considerations going forward<a name="s3-gsg-ConsiderationsGoingForward"></a>
+# Дальшейшие размышления<a name="s3-gsg-ConsiderationsGoingForward"></a>
 
-This section introduces you to topics you should consider before launching your own Amazon S3 product\.
+В этом разделе представлены темы, которые следует обдумать перед запуском собственного продукта Amazon S3\.
 
-**Topics**
-+ [AWS Account and Security Credentials](#iam-about-shared)
-+ [Security](#s3-gsg-Security)
-+ [AWS integration](#s3-gsg-AWSIntegration)
-+ [Pricing](#s3-gsg-Pricing)
+**Темы**
++ [Аккаунт AWS и безопасность учетных данных](#iam-about-shared)
++ [Безопасность](#s3-gsg-Security)
++ [Интеграция AWS](#s3-gsg-AWSIntegration)
++ [Расценки](#s3-gsg-Pricing)
 
-## AWS Account and Security Credentials<a name="iam-about-shared"></a>
+## Аккаунт AWS и безопасность учетных данных<a name="iam-about-shared"></a>
 
-When you signed up for the service, you created an AWS account using an email address and password\. Those are your AWS account root user credentials\. As a best practice, you should not use your root user credentials to access AWS\. Nor should you give your credentials to anyone else\. Instead, create individual users for those who need access to your AWS account\. First, create an AWS Identity and Access Management \(IAM\) administrator user for yourself and use it for your daily work\. For details, see [Creating Your First IAM Admin User and Group](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) in the *IAM User Guide*\. Then create additional IAM users for other people\. For details, see [Creating Your First IAM Delegated User and Group](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-delegated-user.html) in the *IAM User Guide*\.
+Когда вы регистрируетесь, вы создаете аккаунт AWS используя свой e-mail адрес и пароль\. Эти данные являются вашей корневой учетной записью аккаунта AWS\. Наилучшей практикой являюется то, что вы не должны использовать вашу корневую учетную запись для доступа к AWS\. И никому не передавать вашу учетную запись\. Вместо этого, создайте индивидуальных пользователей тем, кому необходим доступ в ваш аккаунт AWS\. Для начала создайте для себя пользователя с административными правами в AWS Identity and Access Management \(IAM\) и используйте его для повседневной работы\. Для получения дополнительной информации, ознакомьтесь с разделом [Создание первого административного пользователя и группы в IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html) в *Руководстве пользователя IAM*\. Затем создайте дополнительных пользователей IAM для остальных\. Для получения дополнительной информации, ознакомьтесь с разделом [Создание вашего первого делегированного IAM пользователя и группы](https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-delegated-user.html) в *Руководстве пользователя IAM*\.
 
-If you're an account owner or administrator and want to know more about IAM, see the product description at [https://aws\.amazon\.com/iam](https://aws.amazon.com/iam) or the technical documentation in the [IAM User Guide](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)\.
+Если вы являетесь владельцем учетной записи или администратором и хотите больше узнать о IAM, ознакомьтесь с описанием продукта по ссылке [https://aws\.amazon\.com/iam](https://aws.amazon.com/iam), а для получения технической документации используйте [Руководство пользователя IAM](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)\.
 
-## Security<a name="s3-gsg-Security"></a>
+## Безопасность<a name="s3-gsg-Security"></a>
 
-Amazon S3 provides authentication mechanisms to secure data stored in Amazon S3 against unauthorized access\. Unless you specify otherwise, only the AWS account owner can access data uploaded to Amazon S3\. For more information about how to manage access to buckets and objects, go to [Identity and Access Management in Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html) in the *Amazon Simple Storage Service Developer Guide*\. 
+Amazon S3 предоставляет механизмы аутентификации для защиты данных, хранящихся в Amazon S3, от несанкционированного доступа\. Если не указано иное, доступ к данным, загруженным в Amazon S3, может получить только владелец аккаунта AWS\. Для получения дополнительной информации об управлении доступом к бакетам и объектам, обратитесь к разделу [Управление идентификацией и доступом в Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/s3-access-control.html) в *Справочник разработчика Amazon Simple Storage Service *\. 
 
-You can also encrypt your data before uploading it to Amazon S3\.
+Также вы можете зашифровать ваши данные перед загрузкой в Amazon S3\.
 
-## AWS integration<a name="s3-gsg-AWSIntegration"></a>
+## Интеграция AWS<a name="s3-gsg-AWSIntegration"></a>
 
-You can use Amazon S3 alone or in concert with one or more other Amazon products\. The following are the most common products used with Amazon S3:
+Вы можете использовать Amazon S3, как отдельно, так и в сочетании с одним или несколькими другими продуктами Amazon\. Следующие продукты являются наиболее часто используемыми с  Amazon S3:
 + [Amazon EC2](https://aws.amazon.com/ec2/)
 + [Amazon EMR](https://aws.amazon.com/elasticmapreduce/)
 + [Amazon SQS](https://aws.amazon.com/sqs/)
 + [Amazon CloudFront ](https://aws.amazon.com/cloudfront/)
 
-## Pricing<a name="s3-gsg-Pricing"></a>
+## Расценки<a name="s3-gsg-Pricing"></a>
 
-Learn the pricing structure for storing and transferring data on Amazon S3\. For more information, see [Amazon S3 pricing](https://aws.amazon.com/s3/pricing/)\.
+Ознакомьтесь со структурой ценообразования для хранения и передачи данных в Amazon S3\. Для получения более подробной инфорамции, смотрите [Расценки Amazon S3](https://aws.amazon.com/s3/pricing/)\.
