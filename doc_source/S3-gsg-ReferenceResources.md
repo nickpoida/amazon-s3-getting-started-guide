@@ -1,11 +1,11 @@
-# Reference resources<a name="S3-gsg-ReferenceResources"></a>
+# Справочные материалы<a name="S3-gsg-ReferenceResources"></a>
 
-The following list shows additional resources that you can use to further your understanding of Amazon S3\.
-+ The [Amazon Simple Storage Service Console User Guide](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/) describes all of the AWS Management Console functions related to Amazon S3\.
-+ The [Amazon Simple Storage Service Developer Guide](https://docs.aws.amazon.com/AmazonS3/latest/dev/) provides a detailed discussion of the service\. 
+В следующем списке приведены дополнительные материалы, которые вы можете использовать для дальнейшего понимания Amazon S3\.
++ [Руководство пользователя консоли Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/) описывает все функции консоли управления AWS, связанные с  Amazon S3\.
++ [Руководство разработчика Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/) предоставляет развернутое описание сервиса\. 
 
-  It includes an architectural overview, detailed concept descriptions, and procedures for using the API\. 
-+ The [Amazon Simple Storage Service API Reference](https://docs.aws.amazon.com/AmazonS3/latest/API/) provides a detailed discussion of the actions and parameters in Amazon S3\.
-+ The Service Health Dashboard shows you the status of the Amazon S3 web service\.
+  Оно включает в себя обзор архитектуры, подробные описания концепций и процедуры использования API\. 
++ [Справочник по API Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/API/) предоставляет развернутое описание действий и параметров используемых в Amazon S3\.
++ Панель Состояния Сервисов показывает вам статус сервиса Amazon S3\.
 
-  The dashboard shows you whether Amazon S3 \(and all other AWS products\) are functioning properly\. For more information, see the [Service Health Dashboard](http://status.aws.amazon.com/)\.
+  Панель показывает вам, работает ли Amazon S3 корректно \(а также все остальные продукты AWS\)\. Для получения подробной информации, перейдите в [Панель Состояния Сервисов](http://status.aws.amazon.com/)\.
