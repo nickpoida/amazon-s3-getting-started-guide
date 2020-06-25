@@ -25,6 +25,6 @@
    + [Обычные варианты использования](S3-gsg-CommonUseScenarios.md)
    + [Дальшейшие размышления](s3-gsg-ConsiderationsGoingForward.md)
    + [Продвинутые функции Amazon S3](S3-gsg-AdvancedAmazonS3Features.md)
-   + [Ресурсы для разработчикаs](S3-gsg-DevelopmentResources.md)
+   + [Ресурсы для разработчика](S3-gsg-DevelopmentResources.md)
    + [Справочные ресурсы](S3-gsg-ReferenceResources.md)
 + [Об этом руководстве](AboutThisGuide.md)
