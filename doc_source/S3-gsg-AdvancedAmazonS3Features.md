@@ -1,12 +1,12 @@
-# Advanced Amazon S3 features<a name="S3-gsg-AdvancedAmazonS3Features"></a>
+# Продвинутые функции Amazon S3<a name="S3-gsg-AdvancedAmazonS3Features"></a>
 
-The examples in this guide show how to accomplish the basic tasks of creating a bucket, uploading and downloading data to and from it, and moving and deleting the data\. The following table summarizes some of the most common advanced functionality offered by Amazon S3\. Note that some advanced functionality is not available in the AWS Management Console and requires that you use the Amazon S3 API\. All advanced functionality and how to use it is described in the [Amazon Simple Storage Service Developer Guide](https://docs.aws.amazon.com/AmazonS3/latest/dev/)\.
+Примеры в этом руководстве показывают, как выполнить основные задачи - создание бакеты, загрузки и выгрузки данных в него и из него, а также перемещения и удаления данных\. В следующей таблице приведены некоторые из наиболее распространенных продвинутых функций, предлагаемых Amazon S3\. Имейте ввиду, что часть продвинутого функционала не доступна в консоли управления AWS и требует использования API Amazon S3\. Весь продвинутый функционал и то, как его использовать, описан в [Руководстве Разработчика Amazon Simple Storage Service](https://docs.aws.amazon.com/AmazonS3/latest/dev/)\.
 
 
-| Link | Functionality | 
+| Ссылка | Функционал | 
 | --- | --- | 
-| [Requester Pays Buckets](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) | Learn how to configure a bucket so that a customer pays for the downloads they make\.  | 
-| [Using BitTorrent With Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/S3TorrentPublish.html)  | Use BitTorrent, which is an open, peer\-to\-peer protocol for distributing files\.  | 
-| [Versioning](https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html) | Learn about Amazon S3 versioning capabilities\. | 
-| [Hosting Static Websites](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) | Learn how to host a static website on Amazon S3\. | 
-| [Object Lifecycle Management](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) | Learn how to manage the lifecycle of objects in your bucket\. Lifecycle management includes expiring objects and archiving objects \(transitioning objects to the S3 S3 Glacier storage class\)\. | 
+| [Бакеты с оплатой получателем](https://docs.aws.amazon.com/AmazonS3/latest/dev/RequesterPaysBuckets.html) | Узнайте, как настроить бакет так, чтобы клиент платил за скачиваемые файлы\.  | 
+| [Использование BitTorrent совместно с Amazon S3](https://docs.aws.amazon.com/AmazonS3/latest/dev/S3TorrentPublish.html)  | Используйте BitTorrent, который является открытым пиринговым протоколом для распространения файлов\.  | 
+| [Управление версиями](https://docs.aws.amazon.com/AmazonS3/latest/dev/Versioning.html) | Узнайте о возможностях управления версиями Amazon S3\. | 
+| [Размещение статичных веб-сайтов](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteHosting.html) | Узнайте, как разместить статический веб-сайт на Amazon S3\. | 
+| [Управление жизненным циклом объектов](https://docs.aws.amazon.com/AmazonS3/latest/dev/object-lifecycle-mgmt.html) | Узнайте, как управлять жизненным циклом объектов в вашем бакете\. Управление жизненным циклом объектов включает в себя время жизни объекта(просрочку) и архивацию объектов \(перенос объектов в класс хранения S3 Glacier\)\. | 
