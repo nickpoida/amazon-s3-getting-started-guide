@@ -1,12 +1,12 @@
-# Development resources<a name="S3-gsg-DevelopmentResources"></a>
+# Ресурсы для разработчика<a name="S3-gsg-DevelopmentResources"></a>
 
-To help you build applications using the language of your choice, we provide the following resources:
-+ **Sample Code and Libraries** – The AWS Developer Center has sample code and libraries written especially for Amazon S3\.
+Чтобы помочь вам создавать приложения на выбранном вами языке, мы предоставляем следующие ресурсы:
++ **Примеры кода и библиотеки** – Центр Разработчика AWS предоставляяет примеры кода и библиотеки, специально написанные для работы с Amazon S3\.
 
-  You can use these code samples as a means of understanding how to implement the Amazon S3 API\. For more information, see the [AWS Developer Center](https://aws.amazon.com/code/Amazon-S3)\. 
-+ **Tutorials** – Our Resource Center offers more Amazon S3 tutorials\.
+  Вы можете использовать эти примеры кода, как инструменты для понимания, как применять API Amazon S3\. Для получения дополнительной информации, перейдите на сайт [Центр Разработчика AWS](https://aws.amazon.com/code/Amazon-S3)\. 
++ **Учебные пособия** – Наш центр ресурсов предлагает большое количество учебных пособий по Amazon S3\.
 
-  These tutorials provide a hands\-on approach for learning Amazon S3 functionality\. For more information, see [Articles & Tutorials](https://aws.amazon.com/articles/Amazon-S3)\.
-+ **Customer Forum** – We recommend that you review the Amazon S3 forum to get an idea of what other users are doing and to benefit from the questions they ask\.
+  Эти учебные пособия предоставляют практический подход к изучению функциональности Amazon S3\. Для получения дополнительной информации, смотрите [Статьи & Пособия](https://aws.amazon.com/articles/Amazon-S3)\.
++ **Клиентский форум** – Мы рекомендуем вам просмотреть форум Amazon S3, чтобы получить представление о том, что делают другие пользователи, и извлечь пользу из ответов на вопросы, которые они задают\.
 
-  The forum can help you understand what you can and can't do with Amazon S3\. The forum also serves as a place for you to ask questions that other users or AWS representatives might answer\. You can use the forum to report issues with the service or the API\. For more information, see [Discussion Forums](https://forums.aws.amazon.com/)\.
+  Форум может помочь вам понять, что вы можете и что не можете делать с Amazon S3\. Форум также представляет из себя место, где вы можете задать вопросы, на которые могут ответить другие пользователи или представители AWS\. Вы также можете использовать форум для сообщения о проблемах в работе сервисов или API\. Для получения дополнительной информации, перейдите на [Дискуссионный Форум](https://forums.aws.amazon.com/)\.
