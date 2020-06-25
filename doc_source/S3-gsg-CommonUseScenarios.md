@@ -1,9 +1,9 @@
-# Common use scenarios<a name="S3-gsg-CommonUseScenarios"></a>
+# Обычные варианты использования<a name="S3-gsg-CommonUseScenarios"></a>
 
-The AWS Solutions site lists many of the ways you can use Amazon S3\. The following list summarizes some of those ways\.
-+ **Backup and storage** – Provide data backup and storage services for others\.
-+ **Application hosting** – Provide services that deploy, install, and manage web applications\.
-+ **Media hosting** – Build a redundant, scalable, and highly available infrastructure that hosts video, photo, or music uploads and downloads\.
-+ **Software delivery** – Host your software applications that customers can download\.
+На сайте AWS Solutions перечислены многие способы использования Amazon S3\. Следующий список обобщает некоторые из этих способов\.
++ **Резервное копирование и хранение** – Предоставление услуги резервного копирования и хранения данных\.
++ **Размещение приложений** – Предоставление сервисов, которые обеспечивают развертывание, настройку и управление веб приложениями\.
++ **Размещение медиа-ресурсов** – Построение отказоустойчивой, масштабируемой и высоко-доступной инфраструктуры для размещения видео, фото и музыкальных ресурсов, с возможностью скачивания и загрузки\.
++ **Доставка программного обеспечения** – Размещение вашего программного обеспечения для того, чтобы его могли скачать ваши клиенты\.
 
-For more information, see [AWS Solutions](https://aws.amazon.com/solutions/)\. 
+Для получения дополнительной информации, перейдите на сайт [AWS Solutions](https://aws.amazon.com/solutions/)\. 
